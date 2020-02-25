@@ -4,6 +4,13 @@
 /node_modules
 /.pnp
 .pnp.js
+.idea
+
+.idea/.gitignore
+.idea/misc.xml
+.idea/modules.xml
+.idea/propost-server.iml
+.idea/vcs.xml
 
 # testing
 /coverage
@@ -13,10 +20,13 @@
 
 # misc
 .DS_Store
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+.graphqlconfig
+apollo.config.js
 
 npm-debug.log*
 yarn-debug.log*
