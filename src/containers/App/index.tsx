@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 //Router
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 //Styles
 import GlobalStyle from "../../styles/GlobalStyle";
 //Containers

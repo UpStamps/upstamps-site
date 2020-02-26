@@ -10,7 +10,6 @@ branches:
     - develop
     - /^v1.*$/
 script:
-  - npm test
   - npm run build
 deploy:
   - provider: surge
