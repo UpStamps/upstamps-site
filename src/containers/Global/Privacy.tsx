@@ -668,7 +668,9 @@ function Privacy({ className }: { className?: string }) {
           If you have any questions about this Privacy Policy, please contact
           us:
         </p>
-        <p>By email: info@upstamps.com.</p>
+        <p>
+          By email: <a href="mailto:info@upstamps.com">info@upstamps.com</a>
+        </p>
       </div>
     </div>
   );
