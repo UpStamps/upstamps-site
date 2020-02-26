@@ -11,6 +11,7 @@ function Home() {
   return (
     <Fragment>
       <iframe
+        title="UpStamps on Ship by ProductHunt"
         src="https://www.producthunt.com/upcoming/upstamps"
         style={{
           display: "block",
