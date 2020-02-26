@@ -1,7 +1,7 @@
 import { css } from "styled-components";
 
 const documentStyles = css`
-  margin: 120px 0;
+  margin: 60px 0;
   .content {
     width: 600px;
     margin: auto;

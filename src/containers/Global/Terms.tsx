@@ -27,14 +27,27 @@ function Terms({ className }: { className?: string }) {
         <p>
           These Terms of Service (&ldquo;<strong>Terms</strong>&rdquo;, &ldquo;
           <strong>Terms of Service</strong>&rdquo;) govern your use of&nbsp;our
-          web pages located at https://www.upstamps.com&nbsp;operated
-          by&nbsp;UpStamps
+          web pages located at &nbsp;
+          <a
+            rel="noopener noreferrer"
+            href="https://www.upstamps.com"
+            target="_blank"
+          >
+            https://www.upstamps.com
+          </a>
+          &nbsp;operated by&nbsp;UpStamps
         </p>
         <p>
           Our Privacy Policy also governs your use of our Service and explains
           how we collect, safeguard and disclose information that results from
-          your use of our web pages. Please read it here
-          https://www.upstamps.com/privacy.
+          your use of our web pages. Please read it here&nbsp;
+          <a
+            rel="noopener noreferrer"
+            href="https://www.upstamps.com/#/privacy"
+            target="_blank"
+          >
+            https://www.upstamps.com/privacy
+          </a>
         </p>
         <p>
           Your agreement with us includes these Terms&nbsp;and our Privacy
@@ -44,9 +57,10 @@ function Terms({ className }: { className?: string }) {
         </p>
         <p>
           If you do not agree with (or cannot comply with) Agreements, then you
-          may not use the Service, but please let us know by emailing at
-          info@upstamps.com so we can try to find a solution. These Terms apply
-          to all visitors, users and others who wish to access or use Service.
+          may not use the Service, but please let us know by emailing at&nbsp;
+          <a href="mailto:info@upstamps.com">info@upstamps.com</a> so we can try
+          to find a solution. These Terms apply to all visitors, users and
+          others who wish to access or use Service.
         </p>
         <p>Thank you for being responsible.</p>
         <ol start={2}>
@@ -364,7 +378,6 @@ function Terms({ className }: { className?: string }) {
             </strong>
           </li>
         </ol>
-        <p>&nbsp;</p>
         <p>
           We may use third-party Service Providers to monitor and analyze the
           use of our Service.
@@ -381,15 +394,23 @@ function Terms({ className }: { className?: string }) {
         </p>
         <p>
           For more information on the privacy practices of Google, please visit
-          the Google Privacy Terms web page:{" "}
-          <a href="https://policies.google.com/privacy?hl=en">
+          the Google Privacy Terms web page:&nbsp;
+          <a
+            rel="noopener noreferrer"
+            href="https://policies.google.com/privacy?hl=en"
+            target="_blank"
+          >
             https://policies.google.com/privacy?hl=en
           </a>
         </p>
         <p>
           We also encourage you to review the Google's policy for safeguarding
-          your data:{" "}
-          <a href="https://support.google.com/analytics/answer/6004245">
+          your data:&nbsp;
+          <a
+            rel="noopener noreferrer"
+            href="https://support.google.com/analytics/answer/6004245"
+            target="_blank"
+          >
             https://support.google.com/analytics/answer/6004245
           </a>
           .
@@ -399,8 +420,12 @@ function Terms({ className }: { className?: string }) {
         </p>
         <p>
           Cloudflare analytics is a web analytics service operated by Cloudflare
-          Inc. Read the Privacy Policy here:{" "}
-          <a href="https://www.cloudflare.com/privacypolicy/">
+          Inc. Read the Privacy Policy here:&nbsp;
+          <a
+            rel="noopener noreferrer"
+            href="https://www.cloudflare.com/privacypolicy/"
+            target="_blank"
+          >
             https://www.cloudflare.com/privacypolicy/
           </a>
         </p>
@@ -487,10 +512,11 @@ function Terms({ className }: { className?: string }) {
           If you are a copyright owner, or authorized on behalf of one, and you
           believe that the copyrighted work has been copied in a way that
           constitutes copyright infringement, please submit your claim via email
-          to&nbsp;legal@upstamps.com, with the subject line: &ldquo;Copyright
-          Infringement&rdquo; and include in your claim a detailed description
-          of the alleged Infringement as detailed below, under &ldquo;DMCA
-          Notice and Procedure for Copyright Infringement Claims&rdquo;
+          to&nbsp; <a href="mailto:legal@upstamps.com">legal@upstamps.com</a>,
+          with the subject line: &ldquo;Copyright Infringement&rdquo; and
+          include in your claim a detailed description of the alleged
+          Infringement as detailed below, under &ldquo;DMCA Notice and Procedure
+          for Copyright Infringement Claims&rdquo;
         </p>
         <p>
           You may be held accountable for damages (including costs and
@@ -550,8 +576,8 @@ function Terms({ className }: { className?: string }) {
           </li>
         </ul>
         <p>
-          You can contact our Copyright Agent via email
-          at&nbsp;legal@upstamps.com
+          You can contact our Copyright Agent via email at&nbsp;{" "}
+          <a href="mailto:legal@upstamps.com">legal@upstamps.com</a>
         </p>
         <ol start={16}>
           <li>
@@ -561,8 +587,9 @@ function Terms({ className }: { className?: string }) {
           </li>
         </ol>
         <p>
-          You may provide us&nbsp;either directly at info@upstamps.com or via
-          third party sites and tools&nbsp;with information and feedback
+          You may provide us&nbsp;either directly at &nbsp;{" "}
+          <a href="mailto:legal@upstamps.com">legal@upstamps.com</a> &nbsp; or
+          via third party sites and tools&nbsp;with information and feedback
           concerning errors, suggestions for improvements, ideas, problems,
           complaints, and other matters related to our Service (&ldquo;
           <strong>Feedback</strong>&rdquo;). You acknowledge and agree that: (i)
@@ -809,7 +836,7 @@ function Terms({ className }: { className?: string }) {
           Please send your feedback, comments, requests for technical support:
         </p>
         <p>
-          By email: <a href="mailto:info@upstamps.com">info@upstamps.com</a>{" "}
+          By email: <a href="mailto:info@upstamps.com">info@upstamps.com</a>
         </p>
       </div>
     </div>

@@ -21,15 +21,28 @@ function Privacy({ className }: { className?: string }) {
         </p>
         <p>
           UpStamps&nbsp;(&ldquo;us&rdquo;, &ldquo;we&rdquo;, or
-          &ldquo;our&rdquo;)
-          operates&nbsp;https://www.upstamps.com&nbsp;(hereinafter referred to
-          as &ldquo;<strong>Service</strong>&rdquo;).
+          &ldquo;our&rdquo;) operates&nbsp;
+          <a
+            rel="noopener noreferrer"
+            href="https://www.upstamps.com"
+            target="_blank"
+          >
+            https://www.upstamps.com
+          </a>
+          &nbsp;(hereinafter referred to as &ldquo;<strong>Service</strong>
+          &rdquo;).
         </p>
         <p>
-          Our Privacy Policy governs your visit
-          to&nbsp;https://www.upstamps.com, and explains how we collect,
-          safeguard and disclose information that results from your use of our
-          Service.
+          Our Privacy Policy governs your visit to&nbsp;{" "}
+          <a
+            rel="noopener noreferrer"
+            href="https://www.upstamps.com"
+            target="_blank"
+          >
+            https://www.upstamps.com
+          </a>
+          , and explains how we collect, safeguard and disclose information that
+          results from your use of our Service.
         </p>
         <p>
           We use your data to provide and improve Service. By using Service, you
@@ -52,8 +65,15 @@ function Privacy({ className }: { className?: string }) {
           </li>
         </ol>
         <p>
-          <strong>SERVICE&nbsp;</strong>means the&nbsp;https://www.upstamps.com
-          website&nbsp;operated by&nbsp;UpStamps
+          <strong>SERVICE&nbsp;</strong>means the&nbsp;{" "}
+          <a
+            rel="noopener noreferrer"
+            href="https://www.upstamps.com"
+            target="_blank"
+          >
+            https://www.upstamps.com
+          </a>
+          &nbsp; website&nbsp;operated by&nbsp;UpStamps
         </p>
         <p>
           <strong>PERSONAL DATA</strong>&nbsp;means data about a living
@@ -371,8 +391,8 @@ function Privacy({ className }: { className?: string }) {
         </p>
         <p>
           If you wish to be informed what Personal Data we hold about you and if
-          you want it to be removed from our systems, please email us at
-          info@upstamps.com.
+          you want it to be removed from our systems, please email us at &nbsp;
+          <a href="mailto:info@upstamps.com">info@upstamps.com</a>
         </p>
         <p>
           In certain circumstances, you have the following data protection
@@ -437,8 +457,14 @@ function Privacy({ className }: { className?: string }) {
           California consumers to post a conspicuous privacy policy on its
           website stating exactly the information being collected and those
           individuals with whom it is being shared, and to comply with this
-          policy. &ndash; See more at:
-          https://consumercal.org/about-cfc/cfc-education-foundation/california-online-privacy-protection-act-caloppa-3/
+          policy. &ndash; See more at: &nbsp;
+          <a
+            rel="noopener noreferrer"
+            href="https://consumercal.org/about-cfc/cfc-education-foundation/california-online-privacy-protection-act-caloppa-3/"
+            target="_blank"
+          >
+            https://consumercal.org/about-cfc/cfc-education-foundation/california-online-privacy-protection-act-caloppa-3/
+          </a>
         </p>
         <p>According to CalOPPA we agree to the following:</p>
         <ul>
@@ -454,7 +480,7 @@ function Privacy({ className }: { className?: string }) {
           </li>
           <li>
             users are able to change their personal information by emailing us
-            at info@upstamps.com.
+            at &nbsp;<a href="mailto:info@upstamps.com">info@upstamps.com</a>.
           </li>
         </ul>
         <p>Our Policy on &ldquo;Do Not Track&rdquo; Signals:</p>
@@ -520,7 +546,13 @@ function Privacy({ className }: { className?: string }) {
         <p>
           Cloudflare analytics is a web analytics service operated by Cloudflare
           Inc. Read the Privacy Policy here:
-          https://www.cloudflare.com/privacypolicy/
+          <a
+            rel="noopener noreferrer"
+            href=" https://www.cloudflare.com/privacypolicy/"
+            target="_blank"
+          >
+            https://www.cloudflare.com/privacypolicy/
+          </a>
         </p>
         <ol start={14}>
           <li>
@@ -571,7 +603,14 @@ function Privacy({ className }: { className?: string }) {
         <p>
           For more information on what data Codacy collect for what purpose and
           how the protection of the data is ensured, please visit Codacy Privacy
-          Policy page: https://www.codacy.com/privacy.
+          Policy page:
+          <a
+            rel="noopener noreferrer"
+            href="https://www.codacy.com/privacy."
+            target="_blank"
+          >
+            https://www.codacy.com/privacy.
+          </a>
         </p>
         <ol start={15}>
           <li>
