@@ -8,7 +8,22 @@ import Privacy from "../Global/Privacy";
 import Terms from "../Global/Terms";
 
 function Home() {
-  return <h2>Home</h2>;
+  return (
+    <Fragment>
+      <iframe
+        src="https://www.producthunt.com/upcoming/upstamps"
+        style={{
+          display: "block",
+          background: "#000",
+          border: "none",
+          height: "100vh",
+          width: "100vw"
+        }}
+        height="100%"
+        width="100%"
+      />
+    </Fragment>
+  );
 }
 
 function App() {
