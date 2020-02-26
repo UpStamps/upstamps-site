@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useEffect } from "react";
 //Router
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
 //Styles
@@ -8,14 +8,18 @@ import Privacy from "../Global/Privacy";
 import Terms from "../Global/Terms";
 
 function Home() {
+  useEffect(() => {
+    window.location.href = "https://mailchi.mp/c28013736fe6/upstampscoming";
+  }, []);
   return (
     <Fragment>
       <iframe
-        title="UpStamps on Ship by ProductHunt"
-        src="https://www.producthunt.com/upcoming/upstamps"
+        id="your-frame-id"
+        title="UpStamps Coming Soon"
+        src="https://mailchi.mp/c28013736fe6/upstampscoming"
         style={{
           display: "block",
-          background: "#000",
+          background: "transparent",
           border: "none",
           height: "100vh",
           width: "100vw"
