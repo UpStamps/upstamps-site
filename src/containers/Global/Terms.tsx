@@ -8,7 +8,8 @@ function Terms({ className }: { className?: string }) {
     <div className={className}>
       <div className="content">
         <h1>TERMS OF SERVICE</h1>
-        <p>Last updated:&nbsp;02/25/2020</p>
+        <p>Effective date: 02/27/2020</p>
+        <p>Last updated: 02/27/2020</p>
         <ol>
           <li>
             <strong>
@@ -587,7 +588,7 @@ function Terms({ className }: { className?: string }) {
           </li>
         </ol>
         <p>
-          You may provide us&nbsp;either directly at &nbsp;{" "}
+          You may provide us&nbsp;either directly at &nbsp;
           <a href="mailto:legal@upstamps.com">legal@upstamps.com</a> &nbsp; or
           via third party sites and tools&nbsp;with information and feedback
           concerning errors, suggestions for improvements, ideas, problems,
@@ -610,12 +611,19 @@ function Terms({ className }: { className?: string }) {
           The third party sites and tools mentioned above include the following:
         </p>
         <p>
-          <strong>Bugsnag</strong>
+          <strong>LogRocket</strong>
         </p>
         <p>
-          Bugsnag is a platform for monitoring and logging stability of
-          applications provided by Bugsnag Inc. Please read their Privacy Policy
-          here: https://docs.bugsnag.com/legal/privacy-policy/
+          LogRocket is a platform recording videos of user sessions with logs
+          and network data, identifying UX problems and revealing the root cause
+          of every bug. Please read their Privacy Policy here: &nbsp;
+          <a
+            rel="noopener noreferrer"
+            href="https://logrocket.com/privacy/"
+            target="_blank"
+          >
+            https://logrocket.com/privacy/
+          </a>
         </p>
         <ol start={17}>
           <li>

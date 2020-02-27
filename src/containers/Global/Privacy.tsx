@@ -8,7 +8,8 @@ function Privacy({ className }: { className?: string }) {
     <div className={className}>
       <div className="content">
         <h1>PRIVACY POLICY</h1>
-        <p>Effective date: 02/25/2020</p>
+        <p>Effective date: 02/27/2020</p>
+        <p>Last updated: 02/27/2020</p>
         <ol>
           <li>
             <strong>
@@ -533,19 +534,33 @@ function Privacy({ className }: { className?: string }) {
         </p>
         <p>
           For more information on the privacy practices of Google, please visit
-          the Google Privacy Terms web page:
-          https://policies.google.com/privacy?hl=en
+          the Google Privacy Terms web page:&nbsp;
+          <a
+            rel="noopener noreferrer"
+            href=" https://policies.google.com/privacy?hl=en"
+            target="_blank"
+          >
+            https://policies.google.com/privacy?hl=en
+          </a>
         </p>
         <p>
           We also encourage you to review the Google's policy for safeguarding
-          your data: https://support.google.com/analytics/answer/6004245.
+          your data:&nbsp;
+          <a
+            rel="noopener noreferrer"
+            href=" https://support.google.com/analytics/answer/6004245"
+            target="_blank"
+          >
+            https://support.google.com/analytics/answer/6004245
+          </a>
+          .
         </p>
         <p>
           <strong>Cloudflare analytics</strong>
         </p>
         <p>
           Cloudflare analytics is a web analytics service operated by Cloudflare
-          Inc. Read the Privacy Policy here:
+          Inc. Read the Privacy Policy here:&nbsp;
           <a
             rel="noopener noreferrer"
             href=" https://www.cloudflare.com/privacypolicy/"
@@ -576,8 +591,12 @@ function Privacy({ className }: { className?: string }) {
         <p>
           For more information on what data GitHub collects for what purpose and
           how the protection of the data is ensured, please visit GitHub Privacy
-          Policy page:{" "}
-          <a href="https://help.github.com/en/articles/github-privacy-statement">
+          Policy page:&nbsp;
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://help.github.com/en/articles/github-privacy-statement"
+          >
             https://help.github.com/en/articles/github-privacy-statement.
           </a>
         </p>
@@ -591,7 +610,14 @@ function Privacy({ className }: { className?: string }) {
         <p>
           For more information on what data Travis CI collects for what purpose
           and how the protection of the data is ensured, please visit Travis CI
-          Privacy Policy page: https://docs.travis-ci.com/legal/privacy-policy.
+          Privacy Policy page: &nbsp;
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://docs.travis-ci.com/legal/privacy-policy"
+          >
+            https://docs.travis-ci.com/legal/privacy-policy.
+          </a>
         </p>
         <p>
           <strong>Codacy</strong>
@@ -603,10 +629,10 @@ function Privacy({ className }: { className?: string }) {
         <p>
           For more information on what data Codacy collect for what purpose and
           how the protection of the data is ensured, please visit Codacy Privacy
-          Policy page:
+          Policy page:&nbsp;
           <a
             rel="noopener noreferrer"
-            href="https://www.codacy.com/privacy."
+            href="https://www.codacy.com/privacy"
             target="_blank"
           >
             https://www.codacy.com/privacy.
