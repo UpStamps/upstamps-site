@@ -8,8 +8,8 @@ function Privacy({ className }: { className?: string }) {
     <div className={className}>
       <div className="content">
         <h1>PRIVACY POLICY</h1>
-        <p>Effective date: 02/27/2020</p>
-        <p>Last updated: 02/27/2020</p>
+        <p>Effective date: 19/04/2020</p>
+        <p>Last updated: 19/04/2020</p>
         <ol>
           <li>
             <strong>
@@ -524,23 +524,23 @@ function Privacy({ className }: { className?: string }) {
           We may use third-party Service Providers to monitor and analyze the
           use of our Service.
         </p>
-        <p>Google Analytics</p>
         <p>
-          Google Analytics is a web analytics service offered by Google that
-          tracks and reports website traffic. Google uses the data collected to
-          track and monitor the use of our Service. This data is shared with
-          other Google services. Google may use the collected data to
-          contextualise and personalise the ads of its own advertising network.
+          <strong>Simple Analytics</strong>
         </p>
         <p>
-          For more information on the privacy practices of Google, please visit
-          the Google Privacy Terms web page:&nbsp;
+          Simple Analytics is a web analytics service that tracks and reports
+          website traffic. Simple Analytics uses the data collected to track and
+          monitor the use of our Service.
+        </p>
+        <p>
+          For more information on the privacy practices of Simple Analytics,
+          please visit the Simple Analytics Privacy Terms web page:&nbsp;
           <a
             rel="noopener noreferrer"
-            href=" https://policies.google.com/privacy?hl=en"
+            href="https://simpleanalytics.com/privacy"
             target="_blank"
           >
-            https://policies.google.com/privacy?hl=en
+            https://simpleanalytics.com/privacy
           </a>
         </p>
         <p>
@@ -569,6 +569,7 @@ function Privacy({ className }: { className?: string }) {
             https://www.cloudflare.com/privacypolicy/
           </a>
         </p>
+
         <ol start={14}>
           <li>
             <strong>
@@ -638,7 +639,157 @@ function Privacy({ className }: { className?: string }) {
             https://www.codacy.com/privacy.
           </a>
         </p>
+
         <ol start={15}>
+          <li>
+            <strong>
+              <u>Communication tools</u>
+            </strong>
+          </li>
+        </ol>
+        <p>
+          We may use third-party Service Providers to automate the communication
+          and feedback process of our Service.
+        </p>
+        <p>
+          <strong>Customerly</strong>
+        </p>
+        <p>Customerly is provided by Customerly Ltd.</p>
+        <p>
+          Customerly is a customer service software for Live Chat, Video Calls,
+          Typing previews, Knowledgebase & Surveys. Customerly is the all-in-one
+          platform with a simple goal: to bridge the gap between you and your
+          customers
+        </p>
+        <p>
+          For more information on what data Customerly collects for what purpose
+          and how the protection of the data is ensured, please visit Customerly
+          Privacy Policy page:&nbsp;
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://www.customerly.io/en/privacy"
+          >
+            https://www.customerly.io/en/privacy
+          </a>
+        </p>
+
+        <ol start={16}>
+          <li>
+            <strong>
+              <u>Cloud, Authentication and Hosting tools</u>
+            </strong>
+          </li>
+        </ol>
+        <p>
+          We may use third-party Service Providers to automate hosting,
+          authentication and cloud process of our Service.
+        </p>
+        <p>
+          <strong>Heroku</strong>
+        </p>
+        <p>Heroku is provided by Salesforce.</p>
+        <p>
+          Heroku focuses relentlessly on apps and the developer experience
+          around apps. Heroku lets companies of all sizes embrace the value of
+          apps, not the distraction of hardware, nor the distraction of servers
+          - virtual or otherwise.
+        </p>
+        <p>
+          For more information on what data Heroku collects for what purpose and
+          how the protection of the data is ensured, please visit Heroku Privacy
+          Policy page:&nbsp;
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://www.salesforce.com/company/privacy/"
+          >
+            https://www.salesforce.com/company/privacy/
+          </a>
+        </p>
+
+        <p>
+          <strong>Hasura</strong>
+        </p>
+        <p>Hasura is provided by Hasura, inc.</p>
+        <p>
+          Hasura is an open source engine that connects to your databases &
+          microservices and auto-generates a production-ready GraphQL backend.
+        </p>
+        <p>
+          For more information on what data Hasura collects for what purpose and
+          how the protection of the data is ensured, please visit Hasura Privacy
+          Policy page:&nbsp;
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://hasura.io/legal/hasura-privacy-policy/"
+          >
+            https://hasura.io/legal/hasura-privacy-policy/
+          </a>
+        </p>
+
+        <p>
+          <strong>Zeit</strong>
+        </p>
+        <p>Zeit is provided by Zeit, inc.</p>
+        <p>
+          ZEIT is a platform for Static and Jamstack deployment, Serverless
+          Functions, and Global CDN.
+        </p>
+        <p>
+          For more information on what data Zeit collects for what purpose and
+          how the protection of the data is ensured, please visit Zeit Privacy
+          Policy page:&nbsp;
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://zeit.co/legal/privacy-policy"
+          >
+            https://zeit.co/legal/privacy-policy
+          </a>
+        </p>
+
+        <p>
+          <strong>Auth0</strong>
+        </p>
+        <p>Auth0 is provided by Auth0, inc.</p>
+        <p>
+          Auth0 is a authentication and authorization platform for web, mobile,
+          and legacy applications so you can focus on your core business.
+        </p>
+        <p>
+          For more information on what data Auth0 collects for what purpose and
+          how the protection of the data is ensured, please visit Auth0 Privacy
+          Policy page:&nbsp;
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://auth0.com/privacy/"
+          >
+            https://auth0.com/privacy/
+          </a>
+        </p>
+
+        <p>
+          <strong>Surge</strong>
+        </p>
+        <p>Surge is provided by Surge.</p>
+        <p>Surge is a Static web publishing for Front-End Developers</p>
+        <p>
+          For more information on what data Surge collects for what purpose and
+          how the protection of the data is ensured, please visit Surge Privacy
+          Policy page:&nbsp;
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://surge.sh/privacy"
+          >
+            https://surge.sh/privacy
+          </a>
+        </p>
+
+        <ol start={17}>
           <li>
             <strong>
               <u>Payments</u>
@@ -665,7 +816,7 @@ function Privacy({ className }: { className?: string }) {
         <p>
           Their Privacy Policy can be viewed at: https://stripe.com/us/privacy
         </p>
-        <ol start={16}>
+        <ol start={18}>
           <li>
             <strong>
               <u>Links to Other Sites</u>
@@ -682,7 +833,7 @@ function Privacy({ className }: { className?: string }) {
           We have no control over and assume no responsibility for the content,
           privacy policies or practices of any third party sites or services.
         </p>
-        <ol start={17}>
+        <ol start={19}>
           <li>
             <strong>
               <u>Children's Privacy</u>
@@ -701,7 +852,7 @@ function Privacy({ className }: { className?: string }) {
           collected Personal Data from Children without verification of parental
           consent, we take steps to remove that information from our servers.
         </p>
-        <ol start={18}>
+        <ol start={20}>
           <li>
             <strong>
               <u>Changes to This Privacy Policy</u>
@@ -722,7 +873,7 @@ function Privacy({ className }: { className?: string }) {
           changes. Changes to this Privacy Policy are effective when they are
           posted on this page.
         </p>
-        <ol start={19}>
+        <ol start={21}>
           <li>
             <strong>
               <u>Contact Us</u>
