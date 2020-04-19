@@ -384,37 +384,23 @@ function Terms({ className }: { className?: string }) {
           use of our Service.
         </p>
         <p>
-          <strong>Google Analytics</strong>
+          <strong>Simple Analytics</strong>
         </p>
         <p>
-          Google Analytics is a web analytics service offered by Google that
-          tracks and reports website traffic. Google uses the data collected to
-          track and monitor the use of our Service. This data is shared with
-          other Google services. Google may use the collected data to
-          contextualise and personalise the ads of its own advertising network.
+          Simple Analytics is a web analytics service that tracks and reports
+          website traffic. Simple Analytics uses the data collected to track and
+          monitor the use of our Service.
         </p>
         <p>
-          For more information on the privacy practices of Google, please visit
-          the Google Privacy Terms web page:&nbsp;
+          For more information on the privacy practices of Simple Analytics,
+          please visit the Simple Analytics Terms web page:&nbsp;
           <a
             rel="noopener noreferrer"
-            href="https://policies.google.com/privacy?hl=en"
+            href="https://simpleanalytics.com/privacy"
             target="_blank"
           >
-            https://policies.google.com/privacy?hl=en
+            https://simpleanalytics.com/privacy
           </a>
-        </p>
-        <p>
-          We also encourage you to review the Google's policy for safeguarding
-          your data:&nbsp;
-          <a
-            rel="noopener noreferrer"
-            href="https://support.google.com/analytics/answer/6004245"
-            target="_blank"
-          >
-            https://support.google.com/analytics/answer/6004245
-          </a>
-          .
         </p>
         <p>
           <strong>Cloudflare analytics</strong>

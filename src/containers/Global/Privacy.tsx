@@ -563,10 +563,32 @@ function Privacy({ className }: { className?: string }) {
           Inc. Read the Privacy Policy here:&nbsp;
           <a
             rel="noopener noreferrer"
-            href=" https://www.cloudflare.com/privacypolicy/"
+            href="https://www.cloudflare.com/privacypolicy/"
             target="_blank"
           >
             https://www.cloudflare.com/privacypolicy/
+          </a>
+        </p>
+
+        <p>
+          <strong>LogRocket</strong>
+        </p>
+        <p>LogRocket is provided by LogRocket, Inc.</p>
+        <p>
+          LogRocket is a platform recording videos of user sessions with logs
+          and network data, identifying UX problems and revealing the root cause
+          of every bug.
+        </p>
+        <p>
+          For more information on what data LogRocket collects for what purpose
+          and how the protection of the data is ensured, please visit LogRocket
+          Privacy Policy page:&nbsp;
+          <a
+            rel="noopener noreferrer"
+            href="https://logrocket.com/privacy/"
+            target="_blank"
+          >
+            https://logrocket.com/privacy/
           </a>
         </p>
 
@@ -671,6 +693,27 @@ function Privacy({ className }: { className?: string }) {
             href="https://www.customerly.io/en/privacy"
           >
             https://www.customerly.io/en/privacy
+          </a>
+        </p>
+
+        <p>
+          <strong>Announcekit</strong>
+        </p>
+        <p>Announcekit is provided by Announcekit.</p>
+        <p>
+          Customerly is a platform to help announce product updates and company
+          news.
+        </p>
+        <p>
+          For more information on what data Announcekit collects for what
+          purpose and how the protection of the data is ensured, please visit
+          Announcekit Privacy Policy page:&nbsp;
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://announcekit.app/privacy-policy"
+          >
+            https://announcekit.app/privacy-policy
           </a>
         </p>
 
@@ -812,9 +855,18 @@ function Privacy({ className }: { className?: string }) {
           payment information.
         </p>
         <p>The payment processors we work with are:</p>
-        <p>Stripe:</p>
         <p>
-          Their Privacy Policy can be viewed at: https://stripe.com/us/privacy
+          <strong>Paddle:</strong>
+        </p>
+        <p>
+          Their Privacy Policy can be viewed at:&nbsp;
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://paddle.com/privacy/"
+          >
+            https://paddle.com/privacy/
+          </a>
         </p>
         <ol start={18}>
           <li>
