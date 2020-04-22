@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect } from "react";
+import React, { Fragment } from "react";
 //Router
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
 //Styles
@@ -7,7 +7,7 @@ import GlobalStyle from "../../styles/GlobalStyle";
 import Privacy from "../Global/Privacy";
 import Terms from "../Global/Terms";
 
-function Home() {
+/*function Home() {
   useEffect(() => {
     window.location.href = "https://mailchi.mp/c28013736fe6/upstampscoming";
   }, []);
@@ -28,6 +28,14 @@ function Home() {
         width="100%"
       />
     </Fragment>
+  );
+}*/
+
+function Home() {
+  return (
+    <div>
+      <h1>Home page</h1>
+    </div>
   );
 }
 
