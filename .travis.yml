@@ -10,11 +10,4 @@ branches:
     - develop
     - /^v1.*$/
 script:
-  - npm run build
-deploy:
-  - provider: surge
-    project: ./build/
-    domain: upstamps.com
-    skip_cleanup: true
-    on:
-      tags: true
+  - npm test

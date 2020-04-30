@@ -773,23 +773,23 @@ function Privacy({ className }: { className?: string }) {
         </p>
 
         <p>
-          <strong>Zeit</strong>
+          <strong>Vercel</strong>
         </p>
-        <p>Zeit is provided by Zeit, inc.</p>
+        <p>Vercel is provided by Vercel, inc.</p>
         <p>
-          ZEIT is a platform for Static and Jamstack deployment, Serverless
+          Vercel is a platform for Static and Jamstack deployment, Serverless
           Functions, and Global CDN.
         </p>
         <p>
-          For more information on what data Zeit collects for what purpose and
+          For more information on what data Vercel collects for what purpose and
           how the protection of the data is ensured, please visit Zeit Privacy
           Policy page:&nbsp;
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://zeit.co/legal/privacy-policy"
+            href="https://vercel.com/legal/privacy-policy"
           >
-            https://zeit.co/legal/privacy-policy
+            https://vercel.com/legal/privacy-policy
           </a>
         </p>
 
@@ -811,24 +811,6 @@ function Privacy({ className }: { className?: string }) {
             href="https://auth0.com/privacy/"
           >
             https://auth0.com/privacy/
-          </a>
-        </p>
-
-        <p>
-          <strong>Surge</strong>
-        </p>
-        <p>Surge is provided by Surge.</p>
-        <p>Surge is a Static web publishing for Front-End Developers</p>
-        <p>
-          For more information on what data Surge collects for what purpose and
-          how the protection of the data is ensured, please visit Surge Privacy
-          Policy page:&nbsp;
-          <a
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://surge.sh/privacy"
-          >
-            https://surge.sh/privacy
           </a>
         </p>
 
