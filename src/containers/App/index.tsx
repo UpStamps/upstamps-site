@@ -9,7 +9,7 @@ import Terms from "../Global/Terms";
 
 function Home() {
   useEffect(() => {
-    window.location.href = "https://mailchi.mp/c28013736fe6/upstampscoming";
+    window.location.href = "https://www.producthunt.com/upcoming/upstamps";
   }, []);
   return (
     <Fragment>
