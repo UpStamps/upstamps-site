@@ -1,45 +1,63 @@
 import React from "react";
+//Utils
+import { urls } from "../../services/constants";
+
+import Lottie from "react-lottie";
+import * as DiscoveryAnimation from "./imgs/discovery/Animation.json";
+import * as BuildAnimation from "./imgs/build/Animation.json";
 
 const Details = () => {
   return (
     <section className="container mb-4">
       <div className="row justify-content-lg-between align-items-lg-center py-4 py-lg-5">
         <div className="col-lg-5 order-lg-2 mb-4 mb-lg-0">
-          <h2 className="h3">Build an elegant website</h2>
+          <h2 className="h3">Test in Production</h2>
           <p>
-            Lots of designers will use fake copy or lorem impsum in their
-            wireframes or prototypes to help them get a sense of the amount of
-            copy required per page.
+            Accelerate feature delivery using Feature Flag and Toggle Management
+            to build better software.
           </p>
-          <a className="link-cta" href="#">
-            Read more
+          <a className="link-cta" href={urls.app}>
+            Create a new Feature Flag
           </a>
         </div>
         <div className="col-lg-6 order-lg-1">
-          <img
-            src="assets/img/course.png"
-            className="img-fluid img-thumbnail"
-            alt="Theme screenshot"
+          <Lottie
+            options={{
+              loop: true,
+              autoplay: true,
+              // @ts-ignore
+              animationData: DiscoveryAnimation.default,
+              rendererSettings: {
+                preserveAspectRatio: "xMidYMid slice"
+              }
+            }}
+            height={400}
           />
         </div>
       </div>
       <div className="row justify-content-lg-between align-items-lg-center py-4 py-lg-5">
         <div className="col-lg-5 mb-4 mb-lg-0">
-          <h2 className="h3">Create, launch and grow</h2>
+          <h2 className="h3">Easy Implementation</h2>
           <p>
-            Lots of designers will use fake copy or lorem impsum in their
-            wireframes or prototypes to help them get a sense of the amount of
-            copy required per page.
+            Easy to use SDKs and Components for development teams quickly build
+            and deploy applications.
           </p>
-          <a className="link-cta" href="#">
-            Read more
+          <a className="link-cta" href={urls.docs}>
+            See Documentation
           </a>
         </div>
         <div className="col-lg-6">
-          <img
-            src="assets/img/event.jpg"
-            className="img-fluid img-thumbnail"
-            alt="Theme screenshot"
+          <Lottie
+            options={{
+              loop: true,
+              autoplay: true,
+              // @ts-ignore
+              animationData: BuildAnimation.default,
+              rendererSettings: {
+                preserveAspectRatio: "xMidYMid slice"
+              }
+            }}
+            height={400}
           />
         </div>
       </div>

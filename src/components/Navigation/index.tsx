@@ -1,19 +1,23 @@
 import React from "react";
+import { Link } from "react-router-dom";
+//Utils
+import { urls } from "../../services/constants";
 
-const Navigation = () => {
+interface Props {
+  className?: string;
+}
+
+const Navigation = ({ className }: Props) => {
   return (
-    <header className="site-header">
-      <a href="#main" className="sr-only sr-only-focusable">
-        Skip to main content
-      </a>
+    <header className={className}>
       <div className="container">
         <nav
           className="navbar navbar-expand-lg navbar-light py-3"
-          aria-label="Main navigation"
+          aria-label="Navigation"
         >
-          <a className="navbar-brand text-dark" href="index.html">
-            <img src="assets/img/logo-boost.svg" alt="Boost Theme" />
-          </a>
+          <Link className="navbar-brand text-dark" to="/">
+            <img src="../imgs/logo.jpg" alt="UpStamps" />
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -23,18 +27,37 @@ const Navigation = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <i className="fas fa-bars fa-lg"></i>
+            <span className="material-icons">menu</span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav align-items-lg-center text-uppercase pt-3 pt-lg-0 ml-auto">
               <li className="nav-item">
-                <a className="nav-link" href="pages.html">
-                  Pages
+                <Link className="nav-link" to="/">
+                  Features
+                </Link>
+              </li>
+
+              <li className="nav-item">
+                <Link className="nav-link" to="/pricing">
+                  Pricing
+                </Link>
+              </li>
+
+              <li className="nav-item">
+                <a className="nav-link" href={urls.docs} target="_blank">
+                  Documentation
                 </a>
               </li>
-              <li className="nav-item ">
-                <a className="nav-link" href="docs/index.html">
-                  Documentation
+
+              <li className="nav-item">
+                <a className="nav-link" href={urls.app} target="_blank">
+                  Sign In
+                </a>
+              </li>
+
+              <li className="nav-item">
+                <a className="nav-link" href={urls.app} target="_blank">
+                  Sign Up
                 </a>
               </li>
             </ul>
