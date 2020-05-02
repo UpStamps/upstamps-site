@@ -1,18 +1,24 @@
 import React from "react";
+import { urls } from "../../services/constants";
 
 const CallToAction = () => {
   return (
     <div className="container py-5">
-      <div className="text-center">
-        <h2 className="mb-4">Are you ready to start?</h2>
-        <div className="mb-4">
-          <a className="btn btn-primary rounded-pill" href="#" role="button">
-            Get started now
-          </a>
+      <div className="cta-container">
+        <div className="text-center r">
+          <h2 className="mb-4">Ship Code When You're Ready</h2>
+          <div>
+            <a
+              className="btn btn-primary"
+              href={urls.app}
+              target="_blank"
+              role="button"
+              rel="noopener noreferrer"
+            >
+              Create account
+            </a>
+          </div>
         </div>
-        <a className="link-cta" href="contact.html">
-          Contact us
-        </a>
       </div>
     </div>
   );

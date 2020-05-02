@@ -16,7 +16,7 @@ const Navigation = ({ className }: Props) => {
           aria-label="Navigation"
         >
           <Link className="navbar-brand text-dark" to="/">
-            <img src="../imgs/logo.jpg" alt="UpStamps" />
+            <img src="../imgs/logo.png" alt="UpStamps" />
           </Link>
           <button
             className="navbar-toggler"
@@ -32,8 +32,8 @@ const Navigation = ({ className }: Props) => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav align-items-lg-center text-uppercase pt-3 pt-lg-0 ml-auto">
               <li className="nav-item">
-                <Link className="nav-link" to="/">
-                  Features
+                <Link className="nav-link" to="/tour">
+                  Product Tour
                 </Link>
               </li>
 
@@ -44,19 +44,34 @@ const Navigation = ({ className }: Props) => {
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href={urls.docs} target="_blank">
+                <a
+                  className="nav-link"
+                  href={urls.docs}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Documentation
                 </a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href={urls.app} target="_blank">
+                <a
+                  className="nav-link"
+                  href={urls.app}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Sign In
                 </a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href={urls.app} target="_blank">
+                <a
+                  className="btn btn-sm btn-secondary"
+                  href={urls.app}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Sign Up
                 </a>
               </li>

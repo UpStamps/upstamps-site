@@ -1,105 +1,64 @@
-import React, { Fragment } from "react";
+import React from "react";
+import { Link } from "react-router-dom";
+import { urls } from "../../services/constants";
 
 const Footer = () => {
   return (
-    <footer className="site-footer mt-5">
+    <footer className="site-footer mt-5 mb-4">
       <div className="container">
         <div className="row justify-content-md-between">
           <div className="col-sm-12 col-md-4 mb-4">
-            <h2 className="h5 mb-3">Company</h2>
+            <h2 className="h5 mb-3">UpStamps</h2>
             <p>
-              Boost is a responsive website theme based on Bootstrap 4. We help
-              you to create a site that your users will love.
+              Use UpStamps Feature Flag Management Platform to separate code
+              from different environments and projects.
             </p>
           </div>
           <div className="col-4 col-md-2 mb-4">
-            <h2 className="h5 mb-3">About</h2>
+            <h2 className="h5 mb-3">Product</h2>
             <ul className="nav flex-column">
               <li className="mb-1">
-                <a href="#">About</a>
+                <Link to="/tour">Features</Link>
               </li>
               <li className="mb-1">
-                <a href="#">Team</a>
+                <Link to="/pricing">pricing</Link>
               </li>
               <li className="mb-1">
-                <a href="#">Careers</a>
-              </li>
-              <li className="mb-1">
-                <a href="#">Blog</a>
+                <Link to="/pricing">Faq</Link>
               </li>
             </ul>
           </div>
           <div className="col-4 col-md-2 mb-4">
-            <h2 className="h5 mb-3">Services</h2>
+            <h2 className="h5 mb-3">Developers</h2>
             <ul className="nav flex-column">
               <li className="mb-1">
-                <a href="#">Design</a>
+                <a href={urls.docs} target="_blank" rel="noopener noreferrer">
+                  Documentation
+                </a>
               </li>
               <li className="mb-1">
-                <a href="#">Themes</a>
+                <a href={urls.app} rel="noopener noreferrer">
+                  Create Account
+                </a>
               </li>
               <li className="mb-1">
-                <a href="#">Branding</a>
-              </li>
-              <li className="mb-1">
-                <a href="#">CMS</a>
+                <a href={urls.app} rel="noopener noreferrer">
+                  Sign In
+                </a>
               </li>
             </ul>
           </div>
           <div className="col-4 col-md-2 mb-4">
-            <h2 className="h5 mb-3">Help</h2>
+            <h2 className="h5 mb-3">Legal</h2>
             <ul className="nav flex-column">
               <li className="mb-1">
-                <a href="#">FAQ</a>
+                <Link to="/terms">Terms of Service</Link>
               </li>
               <li className="mb-1">
-                <a href="#">Contact</a>
-              </li>
-              <li className="mb-1">
-                <a href="#">Phones</a>
-              </li>
-              <li className="mb-1">
-                <a href="#">Chat</a>
+                <Link to="/privacy">Privacy Policy</Link>
               </li>
             </ul>
           </div>
-        </div>
-
-        <hr role="presentation" />
-
-        <div className="d-flex flex-column flex-sm-row justify-content-sm-between align-items-center">
-          <div className="text-muted mb-3">
-            &copy; Made by{" "}
-            <a href="https://11bits.es/" target="_blank" rel="noopener">
-              11bits
-            </a>
-          </div>
-          <ul className="list-inline">
-            <li className="list-inline-item">
-              <a className="icon icon-sm icon-secondary" href="#">
-                <i className="icon-inner fab fa-twitter" aria-hidden="true"></i>
-                <span className="sr-only">Twitter</span>
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a className="icon icon-sm icon-secondary" href="#">
-                <i
-                  className="icon-inner fab fa-facebook-f"
-                  aria-hidden="true"
-                ></i>
-                <span className="sr-only">Facebook</span>
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a className="icon icon-sm icon-secondary" href="#">
-                <i
-                  className="icon-inner fab fa-linkedin-in"
-                  aria-hidden="true"
-                ></i>
-                <span className="sr-only">Linkedin</span>
-              </a>
-            </li>
-          </ul>
         </div>
       </div>
     </footer>

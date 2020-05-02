@@ -10,6 +10,7 @@ import Privacy from "../Global/Privacy";
 import Terms from "../Global/Terms";
 import Pricing from "../Pricing";
 import Home from "../Home";
+import NotFound from "../Global/NotFlound";
 
 function App() {
   return (
@@ -17,18 +18,11 @@ function App() {
       <GlobalStyle background="#e8e4e6" />
       <Navigation />
       <Switch>
-        <Route path="/terms">
-          <Terms />
-        </Route>
-        <Route path="/privacy">
-          <Privacy />
-        </Route>
-        <Route path="/pricing">
-          <Pricing />
-        </Route>
-        <Route path="/">
-          <Home />
-        </Route>
+        <Route exact path="/terms" component={Terms} />
+        <Route exact path="/privacy" component={Privacy} />
+        <Route exact path="/pricing" component={Pricing} />
+        <Route exact path="/" component={Home} />
+        <Route component={NotFound} />
       </Switch>
       <Footer />
     </Fragment>
