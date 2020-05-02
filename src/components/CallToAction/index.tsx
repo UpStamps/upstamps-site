@@ -6,7 +6,7 @@ const CallToAction = () => {
     <div className="container py-5">
       <div className="cta-container">
         <div className="text-center r">
-          <h2 className="mb-4">Ship Code When You're Ready</h2>
+          <h2 className="mb-4 m-4">Ship Code When You're Ready</h2>
           <div>
             <a
               className="btn btn-primary"

@@ -1,14 +1,30 @@
-import React from "react";
+import React, { Fragment } from "react";
 import ReactDOM from "react-dom";
-import App from "./containers/App";
+//Router
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
+//Utils
+import ScrollToTop from "./components/ScrollToTop";
 import * as serviceWorker from "./serviceWorker";
-import { HashRouter as Router } from "react-router-dom";
+//Containers
+import Terms from "./containers/Global/Terms";
+import Privacy from "./containers/Global/Privacy";
+import App from "./containers/App";
+//Styles
+import GlobalStyle from "./styles/GlobalStyle";
 
 const Main = () => {
   return (
-    <Router>
-      <App />
-    </Router>
+    <Fragment>
+      <GlobalStyle background="#e8e4e6" />
+      <Router>
+        <ScrollToTop />
+        <Switch>
+          <Route exact path="/legal/terms" component={Terms} />
+          <Route exact path="/legal/privacy" component={Privacy} />
+          <App />
+        </Switch>
+      </Router>
+    </Fragment>
   );
 };
 

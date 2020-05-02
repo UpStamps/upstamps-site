@@ -5112,6 +5112,16 @@ a.badge-dark:focus {
 .close:not(:disabled):not(.disabled):hover {
   opacity: 0.75;
 }
+.navbar-button {
+  border: none;
+  background: none;
+}
+
+.tour-icon {
+  font-size: 42px;
+  color: #004643;
+}
+
 button.close {
   padding: 0;
   background-color: transparent;
@@ -9834,7 +9844,7 @@ a:hover .img-thumbnail {
   }
 }
 .navbar-brand > img {
-  max-height: 30px;
+  max-height: 38px;
   width: auto;
 }
 @media (max-width: 991.98px) {
@@ -9842,9 +9852,7 @@ a:hover .img-thumbnail {
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
-  .navbar-nav .nav-item + .nav-item {
-    border-top: 1px solid #e9ecef;
-  }
+
   .navbar-nav .nav-link {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;

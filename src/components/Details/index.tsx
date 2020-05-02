@@ -16,7 +16,12 @@ const Details = () => {
             Accelerate feature delivery using Feature Flag and Toggle Management
             to build better software.
           </p>
-          <a className="link-cta" href={urls.app}>
+          <a
+            className="link-cta"
+            href={urls.app}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Create a new Feature Flag
           </a>
         </div>
@@ -42,7 +47,12 @@ const Details = () => {
             Easy to use SDKs and Components for development teams quickly build
             and deploy applications.
           </p>
-          <a className="link-cta" href={urls.docs}>
+          <a
+            className="link-cta"
+            href={urls.docs}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             See Documentation
           </a>
         </div>

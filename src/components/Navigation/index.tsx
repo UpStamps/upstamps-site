@@ -1,13 +1,22 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 //Utils
 import { urls } from "../../services/constants";
+//Hooks
+import useWindowSize from "../../hooks/useWindowSize";
 
 interface Props {
   className?: string;
 }
 
 const Navigation = ({ className }: Props) => {
+  const [open, setOpen] = useState(false);
+  const { pathname } = useLocation();
+  const [width] = useWindowSize();
+
+  useEffect(() => {
+    setOpen(false);
+  }, [pathname]);
   return (
     <header className={className}>
       <div className="container">
@@ -15,21 +24,19 @@ const Navigation = ({ className }: Props) => {
           className="navbar navbar-expand-lg navbar-light py-3"
           aria-label="Navigation"
         >
-          <Link className="navbar-brand text-dark" to="/">
-            <img src="../imgs/logo.png" alt="UpStamps" />
+          <Link className="navbar-brand" to="/">
+            <img src="../imgs/logo.svg" alt="UpStamps" />
           </Link>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="material-icons">menu</span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
+          {width <= 991 && (
+            <button
+              className="navbar-button"
+              type="button"
+              onClick={() => setOpen(!open)}
+            >
+              <span className="material-icons">{open ? "close" : "menu"}</span>
+            </button>
+          )}
+          <div className={`${open ? "" : "collapse"} navbar-collapse`}>
             <ul className="navbar-nav align-items-lg-center text-uppercase pt-3 pt-lg-0 ml-auto">
               <li className="nav-item">
                 <Link className="nav-link" to="/tour">
@@ -67,7 +74,7 @@ const Navigation = ({ className }: Props) => {
 
               <li className="nav-item">
                 <a
-                  className="btn btn-sm btn-secondary"
+                  className={open ? "nav-link" : "btn btn-sm btn-secondary"}
                   href={urls.app}
                   target="_blank"
                   rel="noopener noreferrer"
