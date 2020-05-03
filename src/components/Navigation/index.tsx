@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, NavLink } from "react-router-dom";
 //Utils
 import { urls } from "../../services/constants";
 //Hooks
@@ -39,15 +39,23 @@ const Navigation = ({ className }: Props) => {
           <div className={`${open ? "" : "collapse"} navbar-collapse`}>
             <ul className="navbar-nav align-items-lg-center text-uppercase pt-3 pt-lg-0 ml-auto">
               <li className="nav-item">
-                <Link className="nav-link" to="/tour">
+                <NavLink
+                  className="nav-link"
+                  to="/tour"
+                  activeClassName="nav-link-active"
+                >
                   Product Tour
-                </Link>
+                </NavLink>
               </li>
 
               <li className="nav-item">
-                <Link className="nav-link" to="/pricing">
+                <NavLink
+                  className="nav-link"
+                  to="/pricing"
+                  activeClassName="nav-link-active"
+                >
                   Pricing
-                </Link>
+                </NavLink>
               </li>
 
               <li className="nav-item">

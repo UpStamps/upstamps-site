@@ -1,6 +1,8 @@
 import React from "react";
 import * as TestAnimation from "./img/Animation.json";
 import Lottie from "react-lottie";
+//Utils
+import { urls } from "../../services/constants";
 
 const Hero = () => {
   return (
@@ -13,7 +15,11 @@ const Hero = () => {
             interface. Test and use feature management to separate code from
             different environments and projects.
           </p>
-          <a className="btn btn-primary" href="#">
+          <a
+            className="btn btn-primary"
+            href={urls.app}
+            rel="noopener noreferrer"
+          >
             Get started for free
           </a>
 

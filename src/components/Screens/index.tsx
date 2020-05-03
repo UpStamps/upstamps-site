@@ -12,9 +12,10 @@ const Screens = () => {
             See how teams are managing their projects using feature management
             to progressively deliver features to users with confidence.
           </p>
+
           <img
             className="img-fluid"
-            src="https://via.placeholder.com/1080x759"
+            src="../imgs/heros/app.png"
             alt="Manage features without deployments"
           />
         </div>
@@ -29,7 +30,7 @@ const Screens = () => {
 
           <img
             className="img-fluid"
-            src="https://via.placeholder.com/1080x759"
+            src="../imgs/gifs/projects.gif"
             alt="Create Projects"
           />
         </div>
@@ -44,7 +45,7 @@ const Screens = () => {
 
           <img
             className="img-fluid"
-            src="https://via.placeholder.com/1080x759"
+            src="../imgs/gifs/envs.gif"
             alt="Organize by Environments"
           />
         </div>
@@ -60,7 +61,7 @@ const Screens = () => {
 
           <img
             className="img-fluid"
-            src="https://via.placeholder.com/1080x759"
+            src="../imgs/gifs/flags.gif"
             alt="Easily Deploy with Feature & Remote Flags"
           />
         </div>
@@ -76,7 +77,7 @@ const Screens = () => {
 
           <img
             className="img-fluid"
-            src="https://via.placeholder.com/1080x759"
+            src="../imgs/gifs/tests.gif"
             alt="Run A/B Tests"
           />
         </div>
@@ -91,7 +92,7 @@ const Screens = () => {
 
           <img
             className="img-fluid"
-            src="https://via.placeholder.com/1080x759"
+            src="../imgs/gifs/segments.gif"
             alt="Target Specific Segments"
           />
         </div>

@@ -18,10 +18,10 @@ const Footer = () => {
             <h2 className="h5 mb-3">Product</h2>
             <ul className="nav flex-column">
               <li className="mb-1">
-                <Link to="/tour">Features</Link>
+                <Link to="/tour">Product Tour</Link>
               </li>
               <li className="mb-1">
-                <Link to="/pricing">pricing</Link>
+                <Link to="/pricing">Pricing</Link>
               </li>
               <li className="mb-1">
                 <Link to="/pricing">Faq</Link>
