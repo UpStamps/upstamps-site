@@ -14,9 +14,9 @@ const Screens = () => {
           </p>
 
           <img
-            className="img-fluid"
-            src="../imgs/heros/app.png"
-            alt="Manage features without deployments"
+            className="img-fluid shadow"
+            src="../imgs/gifs/global.gif"
+            alt="Create Projects"
           />
         </div>
 

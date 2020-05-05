@@ -11,6 +11,18 @@ import Privacy from "./containers/Global/Privacy";
 import App from "./containers/App";
 //Styles
 import GlobalStyle from "./styles/GlobalStyle";
+//Utils
+import LogRocket from "logrocket";
+import { isDevMode } from "./services/constants";
+import { disableReactDevTools } from "./services/utils";
+
+if (!isDevMode) {
+  LogRocket.init(`${process.env.REACT_APP_LOGROCKET_ID}`, {
+    release: "1.0.0"
+  });
+  //Removes React DevTools in Production
+  disableReactDevTools();
+}
 
 const Main = () => {
   return (
