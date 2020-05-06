@@ -57,6 +57,22 @@ const Footer = () => {
               <li className="mb-1">
                 <Link to="/privacy">Privacy Policy</Link>
               </li>
+
+              <li className="mb-1">
+                <button
+                  style={{
+                    border: "none",
+                    background: "none",
+                    color: "#656e79"
+                  }}
+                  onClick={() => {
+                    //@ts-ignore
+                    window.Metomic("ConsentManager:show");
+                  }}
+                >
+                  Manage Cookies
+                </button>
+              </li>
             </ul>
           </div>
         </div>
