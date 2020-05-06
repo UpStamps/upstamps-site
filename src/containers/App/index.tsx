@@ -1,53 +1,29 @@
-import React, { Fragment, useEffect } from "react";
+import React, { Fragment } from "react";
 //Router
-import { HashRouter as Router, Switch, Route } from "react-router-dom";
-//Styles
-import GlobalStyle from "../../styles/GlobalStyle";
+import { Switch, Route } from "react-router-dom";
+//Components
+import { Navigation, Footer } from "../../components";
 //Containers
 import Privacy from "../Global/Privacy";
 import Terms from "../Global/Terms";
-
-function Home() {
-  useEffect(() => {
-    window.location.href = "https://www.producthunt.com/upcoming/upstamps";
-  }, []);
-  return (
-    <Fragment>
-      <iframe
-        id="your-frame-id"
-        title="UpStamps Coming Soon"
-        src="https://mailchi.mp/c28013736fe6/upstampscoming"
-        style={{
-          display: "block",
-          background: "transparent",
-          border: "none",
-          height: "100vh",
-          width: "100vw"
-        }}
-        height="100%"
-        width="100%"
-      />
-    </Fragment>
-  );
-}
+import Pricing from "../Pricing";
+import Home from "../Home";
+import Tour from "../Tour";
+import NotFound from "../Global/NotFlound";
 
 function App() {
   return (
     <Fragment>
-      <GlobalStyle background="#e8e4e6" />
-      <Router>
-        <Switch>
-          <Route path="/terms">
-            <Terms />
-          </Route>
-          <Route path="/privacy">
-            <Privacy />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
-      </Router>
+      <Navigation />
+      <Switch>
+        <Route exact path="/terms" component={Terms} />
+        <Route exact path="/privacy" component={Privacy} />
+        <Route exact path="/pricing" component={Pricing} />
+        <Route exact path="/tour" component={Tour} />
+        <Route exact path="/" component={Home} />
+        <Route component={NotFound} />
+      </Switch>
+      <Footer />
     </Fragment>
   );
 }
