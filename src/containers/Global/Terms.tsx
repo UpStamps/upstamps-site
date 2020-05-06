@@ -8,8 +8,7 @@ function Terms({ className }: { className?: string }) {
     <div className={className}>
       <div className="content">
         <h1>TERMS OF SERVICE</h1>
-        <p>Effective date: 19/04/2020</p>
-        <p>Last updated: 19/04/2020</p>
+        <p>Effective date: 06/05/2020</p>
         <ol>
           <li>
             <strong>
