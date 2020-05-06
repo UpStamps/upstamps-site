@@ -9,7 +9,7 @@ const Hero = () => {
     <div className="container mb-lg-3">
       <div className="row justify-content-center py-5 py-lg-6">
         <div className="col-lg-10 text-center py-4">
-          <h1 className="display-3 mb-4">Ship faster with less risk</h1>
+          <h1 className="display-3 mb-4">Deploy faster with less risk</h1>
           <p className="lead px-sm-5">
             Manage every feature with a central visibility and control user
             interface. Test and use feature management to separate code from
