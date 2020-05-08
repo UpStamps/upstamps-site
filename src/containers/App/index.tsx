@@ -9,6 +9,7 @@ import Terms from "../Global/Terms";
 import Pricing from "../Pricing";
 import Home from "../Home";
 import Tour from "../Tour";
+import Why from "../Why";
 import NotFound from "../Global/NotFlound";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route exact path="/terms" component={Terms} />
         <Route exact path="/privacy" component={Privacy} />
         <Route exact path="/pricing" component={Pricing} />
+        <Route exact path="/why-use-feature-flags" component={Why} />
         <Route exact path="/tour" component={Tour} />
         <Route exact path="/" component={Home} />
         <Route component={NotFound} />
