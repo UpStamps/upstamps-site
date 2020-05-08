@@ -21,8 +21,15 @@ const Footer = () => {
                 <Link to="/tour">Product Tour</Link>
               </li>
               <li className="mb-1">
+                <Link to="/why-use-feature-flags">Why Feature Flags?</Link>
+              </li>
+              <li className="mb-1">
                 <Link to="/pricing">Pricing</Link>
               </li>
+              {/*
+              <li className="mb-1">
+                <Link to="/pricing">Roadmap</Link>
+              </li>*/}
               <li className="mb-1">
                 <Link to="/pricing">Faq</Link>
               </li>
@@ -36,6 +43,11 @@ const Footer = () => {
                   Documentation
                 </a>
               </li>
+              {/*<li className="mb-1">
+                <a href={urls.docs} target="_blank" rel="noopener noreferrer">
+                  Status
+                </a>
+              </li>*/}
               <li className="mb-1">
                 <a href={urls.app} rel="noopener noreferrer">
                   Create Account

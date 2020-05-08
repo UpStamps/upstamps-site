@@ -44,8 +44,8 @@ const Details = () => {
         <div className="col-lg-5 mb-4 mb-lg-0">
           <h2 className="h3">Easy Implementation</h2>
           <p>
-            Easy to use SDKs and Components for development teams quickly build
-            and deploy applications.
+            Easy to use SDKs and Components for development teams to quickly
+            build and deploy applications.
           </p>
           <a
             className="link-cta"

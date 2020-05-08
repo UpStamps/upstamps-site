@@ -51,6 +51,16 @@ const Navigation = ({ className }: Props) => {
               <li className="nav-item">
                 <NavLink
                   className="nav-link"
+                  to="/why-use-feature-flags"
+                  activeClassName="nav-link-active"
+                >
+                  Why Use?
+                </NavLink>
+              </li>
+
+              <li className="nav-item">
+                <NavLink
+                  className="nav-link"
                   to="/pricing"
                   activeClassName="nav-link-active"
                 >
