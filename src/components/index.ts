@@ -10,3 +10,4 @@ export { default as Faq } from "./Faq";
 export { default as Pricing } from "./Pricing";
 export { default as Screens } from "./Screens";
 export { default as Explanation } from "./Explanation";
+export { default as TypeWriter } from "./TypeWriter";

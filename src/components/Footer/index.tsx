@@ -26,10 +26,15 @@ const Footer = () => {
               <li className="mb-1">
                 <Link to="/pricing">Pricing</Link>
               </li>
-              {/*
               <li className="mb-1">
-                <Link to="/pricing">Roadmap</Link>
-              </li>*/}
+                <a
+                  href={urls.roadmap}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Roadmap
+                </a>
+              </li>
               <li className="mb-1">
                 <Link to="/pricing">Faq</Link>
               </li>
@@ -39,16 +44,6 @@ const Footer = () => {
             <h2 className="h5 mb-3">Developers</h2>
             <ul className="nav flex-column">
               <li className="mb-1">
-                <a href={urls.docs} target="_blank" rel="noopener noreferrer">
-                  Documentation
-                </a>
-              </li>
-              {/*<li className="mb-1">
-                <a href={urls.docs} target="_blank" rel="noopener noreferrer">
-                  Status
-                </a>
-              </li>*/}
-              <li className="mb-1">
                 <a href={urls.app} rel="noopener noreferrer">
                   Create Account
                 </a>
@@ -56,6 +51,16 @@ const Footer = () => {
               <li className="mb-1">
                 <a href={urls.app} rel="noopener noreferrer">
                   Sign In
+                </a>
+              </li>
+              <li className="mb-1">
+                <a href={urls.docs} target="_blank" rel="noopener noreferrer">
+                  Documentation
+                </a>
+              </li>
+              <li className="mb-1">
+                <a href={urls.status} target="_blank" rel="noopener noreferrer">
+                  System Status
                 </a>
               </li>
             </ul>
