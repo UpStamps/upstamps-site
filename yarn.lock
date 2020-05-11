@@ -1682,10 +1682,10 @@
     "@testing-library/dom" "^7.2.2"
     "@types/testing-library__react" "^10.0.1"
 
-"@testing-library/user-event@^10.1.1":
-  version "10.1.1"
-  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-10.1.1.tgz#c37783460eb3d2c7f4493418377b5f1e30d4cdce"
-  integrity sha512-bOfY0j2FXQcq3k9D5rhYyVqaR1zibl14vqZxXH9q9IQhDvx62hBIFC9n0hHhDgSDEEOVeHejAlC2nGK/79p8Dw==
+"@testing-library/user-event@^10.1.2":
+  version "10.1.2"
+  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-10.1.2.tgz#cdf064856af9ead0ce121eff1ddf3e0e1cad9516"
+  integrity sha512-77pydoNNMfcCgE6RasuYB+Dm61mWtzO1l4JBWHbFyUXXf9FA+9XrpLWWB/vA/FfTsjj4vrV7kHNorj3UKLtcig==
 
 "@types/babel__core@^7.1.0":
   version "7.1.6"
@@ -1827,17 +1827,17 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-dom@^16.9.7":
-  version "16.9.7"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-16.9.7.tgz#60844d48ce252d7b2dccf0c7bb937130e27c0cd2"
-  integrity sha512-GHTYhM8/OwUCf254WO5xqR/aqD3gC9kSTLpopWGpQLpnw23jk44RvMHsyUSEplvRJZdHxhJGMMLF0kCPYHPhQA==
+"@types/react-dom@^16.9.8":
+  version "16.9.8"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-16.9.8.tgz#fe4c1e11dfc67155733dfa6aa65108b4971cb423"
+  integrity sha512-ykkPQ+5nFknnlU6lDd947WbQ6TE3NNzbQAkInC2EKY1qeYdTKp7onFusmYZb+ityzx2YviqT6BXSu+LyWWJwcA==
   dependencies:
     "@types/react" "*"
 
-"@types/react-lottie@^1.2.3":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@types/react-lottie/-/react-lottie-1.2.3.tgz#aa25deecdc6d44e5d367662709c95121b7fe22ae"
-  integrity sha512-e1vOQ+poOGQwDAJkv8AIhXBOkUq9XctxUdFdbVsBIi2t9wgDrdjxUxnpzyy85XQNMwkRQF1VDDSyMN9whW2EVw==
+"@types/react-lottie@^1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@types/react-lottie/-/react-lottie-1.2.4.tgz#f06c71391db99d880815c191a42ea8b557c7b11b"
+  integrity sha512-RA28Ka6MK+SAYiDNOjinIXpR/JHIVzRVOudbZb35mWONB/Eld1uM68hu7Kw9cYcHcjBzq9XIlSV6B+70OenATg==
   dependencies:
     "@types/react" "*"
 
@@ -1873,10 +1873,10 @@
     "@types/prop-types" "*"
     csstype "^2.2.0"
 
-"@types/react@^16.9.34":
-  version "16.9.34"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.34.tgz#f7d5e331c468f53affed17a8a4d488cd44ea9349"
-  integrity sha512-8AJlYMOfPe1KGLKyHpflCg5z46n0b5DbRfqDksxBLBTUpB75ypDBAO9eCUcjNwE6LCUslwTz00yyG/X9gaVtow==
+"@types/react@^16.9.35":
+  version "16.9.35"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.35.tgz#a0830d172e8aadd9bd41709ba2281a3124bbd368"
+  integrity sha512-q0n0SsWcGc8nDqH2GJfWQWUOmZSJhXV64CjVN5SvcNti3TdEaA3AH0D8DwNmMdzjMAC/78tB8nAZIlV8yTz+zQ==
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
@@ -8325,10 +8325,10 @@ pnp-webpack-plugin@1.6.4:
   dependencies:
     ts-pnp "^1.1.6"
 
-polished@^3.6.2:
-  version "3.6.2"
-  resolved "https://registry.yarnpkg.com/polished/-/polished-3.6.2.tgz#bae682806da6400596a851ea443178ff6eec1dd2"
-  integrity sha512-V0dyaVJUM5e5wIhLHvZyyE9PhXoI0AlGT6RDww1V/v+STsocLsVGWmi+9OKTL49oaQj85XFDvsWi/uHQJ0rpWg==
+polished@^3.6.3:
+  version "3.6.3"
+  resolved "https://registry.yarnpkg.com/polished/-/polished-3.6.3.tgz#68f4fe7ffad46530733029b939dd12978200cb59"
+  integrity sha512-QJ0q0b6gX1+0OJtPMfgVJxV0vg5XTa4im+Rca989dAtmsd/fEky3X+0A+V+OUXq1nyiDGplJwqD853dTS0gkPg==
   dependencies:
     "@babel/runtime" "^7.9.2"
 
