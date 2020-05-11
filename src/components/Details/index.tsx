@@ -47,6 +47,49 @@ const Details = () => {
             Easy to use SDKs and Components for development teams to quickly
             build and deploy applications.
           </p>
+
+          <ul className="list-group list-group-horizontal">
+            <li className="list-group-item list-group-item-integration">
+              <a
+                href={urls.integrations.javacript}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="../imgs/integrations/javascript.svg"
+                  alt="Vanilla JS Integration"
+                  className="img-fluid"
+                />
+              </a>
+            </li>
+            <li className="list-group-item list-group-item-integration">
+              <a
+                href={urls.integrations.react}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="../imgs/integrations/react.svg"
+                  alt="React Integration"
+                  className="img-fluid"
+                />
+              </a>
+            </li>
+            <li className="list-group-item list-group-item-integration">
+              <a
+                href={urls.integrations.rest}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="../imgs/integrations/rest.svg"
+                  alt="Rest API Integration"
+                  className="img-fluid"
+                />
+              </a>
+            </li>
+          </ul>
+
           <a
             className="link-cta"
             href={urls.docs}

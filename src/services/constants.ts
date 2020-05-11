@@ -10,6 +10,11 @@ export const urls = {
   billing: "https://app.upstamps.com/#/profile/billing",
   status: "https://status.upstamps.com/",
   roadmap:
-    "https://www.notion.so/2aeec0c6eba0470883603656980677b8?v=1fdbea7d8b644d0790cf388c1e893f31"
+    "https://www.notion.so/2aeec0c6eba0470883603656980677b8?v=1fdbea7d8b644d0790cf388c1e893f31",
+  integrations: {
+    javacript: "https://docs.upstamps.com/src-vanilla-integration",
+    react: "https://docs.upstamps.com/src-react-integration",
+    rest: "https://docs.upstamps.com/src-api"
+  }
 };
 export const isDevMode: boolean = process.env.NODE_ENV === "development";

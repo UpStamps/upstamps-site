@@ -97,7 +97,7 @@ const Navigation = ({ className }: Props) => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Sign Up
+                  Sign Up for free
                 </a>
               </li>
             </ul>

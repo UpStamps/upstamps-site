@@ -24,17 +24,18 @@ const Hero = () => {
             ]}
           />
 
-          <p className="lead px-sm-5">
-            Manage every feature with a central visibility and control user
-            interface. Test and use feature management to separate code from
-            different environments and projects.
+          <p className="px-sm-5">
+            Central control and test for user interfaces <br />
+            🛳 Ship when you're ready 🚀 Accelerate feature release 🙈 Hide
+            unfinished features
           </p>
+
           <a
             className="btn btn-primary"
             href={urls.app}
             rel="noopener noreferrer"
           >
-            Get started for free
+            Start testing in production
           </a>
 
           <div>
