@@ -42,6 +42,7 @@ function TypeWriter({ messages, heading, className }: Props) {
     };
     handleType();
     return () => clearTimeout(timer);
+    // eslint-disable-next-line
   }, [state.isDeleting]);
 
   useEffect(() => {

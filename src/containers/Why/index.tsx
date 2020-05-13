@@ -6,7 +6,10 @@ const WhyPage = () => {
   return (
     <Content>
       <Explanation />
-      <CallToAction />
+      <CallToAction
+        title="Ship Code When You're Ready"
+        action="Create account"
+      />
     </Content>
   );
 };
