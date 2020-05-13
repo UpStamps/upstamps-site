@@ -1,13 +1,55 @@
 import React from "react";
 //Animation
 import * as TestAnimation from "./img/Animation.json";
+import * as ShipAnimation from "./img/ShipAnimation.json";
 import Lottie from "react-lottie";
 //Utils
 import { urls } from "../../services/constants";
 //Components
 import TypeWriter from "../TypeWriter";
 
-const Hero = () => {
+const HorizontalHero = () => {
+  return (
+    <div className="container mb-lg-3">
+      <div className="row  py-5 py-lg-6">
+        <div className="col-12 col-md">
+          <h1 className="display-3 mb-4">
+            Did you ever deploy a feature by mistake?
+          </h1>
+
+          <p className="lead">
+            Feature flagging is a method by which developers wrap a new feature
+            in an if/then statement to gain more control over its release
+          </p>
+
+          <a
+            className="btn btn-primary"
+            href={urls.app}
+            rel="noopener noreferrer"
+          >
+            Get Started for Free
+          </a>
+        </div>
+        <div className="col-12 col-md mt-sm-5">
+          <Lottie
+            options={{
+              loop: true,
+              autoplay: true,
+              // @ts-ignore
+              animationData: ShipAnimation.default,
+              rendererSettings: {
+                preserveAspectRatio: "xMidYMid slice"
+              }
+            }}
+            height={400}
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const CenterHero = () => {
   return (
     <div className="container mb-lg-3">
       <div className="row justify-content-center py-5 py-lg-6">
@@ -19,23 +61,35 @@ const Hero = () => {
               "Feature Flag",
               "A/B Testing",
               "Segments",
-              "Remote Flag",
-              "Environments"
+              "Remote Flag"
             ]}
           />
 
-          <p className="px-sm-5">
-            Central control and test for user interfaces <br />
-            🛳 Ship when you're ready 🚀 Accelerate feature release 🙈 Hide
-            unfinished features
-          </p>
+          <div className="row justify-content-center">
+            <div className="col-12 col-md-auto">
+              <p className="lead text-center text-md-left">
+                🎛 Central control & test for UI
+              </p>
+              <p className="lead text-center text-md-left">
+                🛳 Ship when you're ready
+              </p>
+            </div>
+            <div className="col-12 col-md-auto">
+              <p className="lead text-center text-md-left">
+                🚀 Accelerate feature release
+              </p>
+              <p className="lead text-center text-md-left">
+                🙈 Hide unfinished features
+              </p>
+            </div>
+          </div>
 
           <a
             className="btn btn-primary"
             href={urls.app}
             rel="noopener noreferrer"
           >
-            Start testing in production
+            Get Started for Free
           </a>
 
           <div>
@@ -56,6 +110,10 @@ const Hero = () => {
       </div>
     </div>
   );
+};
+
+const Hero = () => {
+  return <HorizontalHero />;
 };
 
 export default Hero;

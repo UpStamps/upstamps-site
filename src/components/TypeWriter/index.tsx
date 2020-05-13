@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const CONSTANTS = {
   DELETING_SPEED: 300,
-  TYPING_SPEED: 450
+  TYPING_SPEED: 430
 };
 
 interface Props {
