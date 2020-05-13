@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const CONSTANTS = {
   DELETING_SPEED: 300,
-  TYPING_SPEED: 450
+  TYPING_SPEED: 430
 };
 
 interface Props {
@@ -42,6 +42,7 @@ function TypeWriter({ messages, heading, className }: Props) {
     };
     handleType();
     return () => clearTimeout(timer);
+    // eslint-disable-next-line
   }, [state.isDeleting]);
 
   useEffect(() => {

@@ -37,7 +37,7 @@ const Navigation = ({ className }: Props) => {
             </button>
           )}
           <div className={`${open ? "" : "collapse"} navbar-collapse`}>
-            <ul className="navbar-nav align-items-lg-center text-uppercase pt-3 pt-lg-0 ml-auto">
+            <ul className="navbar-nav align-items-lg-center pt-3 pt-lg-0 ml-auto">
               <li className="nav-item">
                 <NavLink
                   className="nav-link"
