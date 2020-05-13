@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import ReactDOM from "react-dom";
 //Router
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
@@ -14,6 +14,7 @@ import GlobalStyle from "./styles/GlobalStyle";
 //Utils
 import { isDevMode } from "./services/constants";
 import { disableReactDevTools } from "./services/utils";
+import { UpStampsProvider } from "upstamps-react";
 
 if (!isDevMode) {
   //Removes React DevTools in Production
@@ -22,7 +23,11 @@ if (!isDevMode) {
 
 const Main = () => {
   return (
-    <Fragment>
+    <UpStampsProvider
+      clientId="5d3843d9-fd51-4f95-a49d-81e3833935c7"
+      projectKey="interesting-tan"
+      envKey="energetic-coffee"
+    >
       <GlobalStyle background="#e8e4e6" />
       <Router>
         <ScrollToTop />
@@ -32,7 +37,7 @@ const Main = () => {
           <App />
         </Switch>
       </Router>
-    </Fragment>
+    </UpStampsProvider>
   );
 };
 

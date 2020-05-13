@@ -23,7 +23,8 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "styled-components": "^5.1.0",
-    "typescript": "~3.9.2"
+    "typescript": "~3.9.2",
+    "upstamps-react": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
