@@ -1,28 +1,25 @@
-import React, { useRef } from "react";
+import React from "react";
 //Animation
-import * as TestAnimation from "./img/Animation.json";
+//import * as TestAnimation from "./img/Animation.json";
 import * as ShipAnimation from "./img/ShipAnimation.json";
 import Lottie from "react-lottie";
 //Utils
 import { urls } from "../../services/constants";
-import { ABTest, useRemoteFlag } from "upstamps-react";
+//import { ABTest, useRemoteFlag } from "upstamps-react";
 //Components
-import TypeWriter from "../TypeWriter";
+//import TypeWriter from "../TypeWriter";
 
-interface Props {
+/*interface Props {
   action: any;
-}
+}*/
 
-const HorizontalHero = ({ action }: Props) => {
-  const { show, data } = useRemoteFlag("hero_h_content");
-  const content = show
-    ? data
-    : {
-        title: "Did you ever deploy a feature by mistake?",
-        description:
-          "Feature flagging is a method by which developers wrap a new feature in an if/then statement to gain more control over its release",
-        action: "Get Started for Free"
-      };
+const HorizontalHero = () => {
+  const content = {
+    title: "Did you ever deploy a feature by mistake?",
+    description:
+      "Feature flagging is a method by which developers wrap a new feature in an if/then statement to gain more control over its release",
+    action: "Get Started for Free",
+  };
 
   return (
     <div className="container mb-lg-3">
@@ -30,12 +27,9 @@ const HorizontalHero = ({ action }: Props) => {
         <div className="col-12 col-md">
           <h1 className="display-3 mb-4">{content.title}</h1>
           <p className="lead">{content.description}</p>
-
           <button
             className="btn btn-primary"
             onClick={() => {
-              //Send test choice
-              action.current.emitter();
               //Open new tab the app
               window.open(urls.app);
             }}
@@ -51,8 +45,8 @@ const HorizontalHero = ({ action }: Props) => {
               // @ts-ignore
               animationData: ShipAnimation.default,
               rendererSettings: {
-                preserveAspectRatio: "xMidYMid slice"
-              }
+                preserveAspectRatio: "xMidYMid slice",
+              },
             }}
             height={400}
           />
@@ -62,7 +56,7 @@ const HorizontalHero = ({ action }: Props) => {
   );
 };
 
-const CenterHero = ({ action }: Props) => {
+/*const CenterHero = ({ action }: Props) => {
   return (
     <div className="container mb-lg-3">
       <div className="row justify-content-center py-5 py-lg-6">
@@ -74,7 +68,7 @@ const CenterHero = ({ action }: Props) => {
               "Feature Flag",
               "A/B Testing",
               "Segments",
-              "Remote Flag"
+              "Remote Flag",
             ]}
           />
 
@@ -129,8 +123,8 @@ const CenterHero = ({ action }: Props) => {
                 // @ts-ignore
                 animationData: TestAnimation.default,
                 rendererSettings: {
-                  preserveAspectRatio: "xMidYMid slice"
-                }
+                  preserveAspectRatio: "xMidYMid slice",
+                },
               }}
               height={460}
             />
@@ -139,9 +133,13 @@ const CenterHero = ({ action }: Props) => {
       </div>
     </div>
   );
-};
+};*/
 
 const Hero = () => {
+  return <HorizontalHero />;
+};
+
+/*const Hero = () => {
   const componentRef = useRef();
 
   return (
@@ -154,6 +152,6 @@ const Hero = () => {
       </ABTest.Variant>
     </ABTest>
   );
-};
+};*/
 
 export default Hero;
