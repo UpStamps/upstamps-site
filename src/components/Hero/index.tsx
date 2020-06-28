@@ -36,6 +36,20 @@ const HorizontalHero = () => {
           >
             {content.action}
           </button>
+          <a
+            href="https://www.producthunt.com/posts/upstamps?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-upstamps"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+             className="mt-2"
+              src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=210403&theme=light"
+              alt="UpStamps - Central control & test for user interfaces | Product Hunt Embed"
+              style={{ width: "250px", height: "54px", marginLeft: "10px" }}
+              width="250px"
+              height="54px"
+            />
+          </a>
         </div>
         <div className="col-12 col-md mt-sm-5">
           <Lottie
