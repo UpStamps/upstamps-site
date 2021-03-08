@@ -14,7 +14,7 @@ export const urls = {
   integrations: {
     javacript: "https://docs.upstamps.com/src-vanilla-integration",
     react: "https://docs.upstamps.com/src-react-integration",
-    rest: "https://docs.upstamps.com/src-api"
-  }
+    rest: "https://docs.upstamps.com/src-api",
+  },
 };
 export const isDevMode: boolean = process.env.NODE_ENV === "development";

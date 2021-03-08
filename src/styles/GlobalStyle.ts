@@ -13,7 +13,7 @@ const GlobalStyle = createGlobalStyle<GlobalStyleProps>`
       padding: 0;
     }
     body {
-        background: ${props => props.background};
+        background: ${(props) => props.background};
         font-family: 'Roboto', sans-serif;
     }
 `;

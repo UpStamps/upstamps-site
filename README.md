@@ -38,10 +38,10 @@ The UpStamps docs are structured into the following sections.
 
 - JavaScript
 
-   - [Vanilla (Browser & Node)](https://docs.upstamps.com/src-vanilla-integration)
+- [Vanilla (Browser & Node)](https://docs.upstamps.com/src-vanilla-integration)
 
-   - [React](https://docs.upstamps.com/src-react-integration)
+- [React](https://docs.upstamps.com/src-react-integration)
 
 - Others
 
-   - [Rest API](https://docs.upstamps.com/src-api)
+- [Rest API](https://docs.upstamps.com/src-api)

@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const CONSTANTS = {
   DELETING_SPEED: 300,
-  TYPING_SPEED: 430
+  TYPING_SPEED: 430,
 };
 
 interface Props {
@@ -27,16 +27,16 @@ function TypeWriter({ messages, heading, className }: Props) {
     message: "",
     isDeleting: false,
     loopNum: 0,
-    typingSpeed: CONSTANTS.TYPING_SPEED
+    typingSpeed: CONSTANTS.TYPING_SPEED,
   });
 
   useEffect(() => {
     let timer: any = "";
     const handleType = () => {
-      setState(prevState => ({
+      setState((prevState) => ({
         ...prevState,
         text: getCurrentText(prevState),
-        typingSpeed: getTypingSpeed(prevState)
+        typingSpeed: getTypingSpeed(prevState),
       }));
       timer = setTimeout(handleType, state.typingSpeed);
     };
@@ -48,17 +48,17 @@ function TypeWriter({ messages, heading, className }: Props) {
   useEffect(() => {
     if (!state.isDeleting && state.text === state.message) {
       setTimeout(() => {
-        setState(prevState => ({
+        setState((prevState) => ({
           ...prevState,
-          isDeleting: true
+          isDeleting: true,
         }));
       }, 500);
     } else if (state.isDeleting && state.text === "") {
-      setState(prevState => ({
+      setState((prevState) => ({
         ...prevState,
         isDeleting: false,
         loopNum: prevState.loopNum + 1,
-        message: getMessage(prevState, messages)
+        message: getMessage(prevState, messages),
       }));
     }
   }, [state.text, state.message, state.isDeleting, messages]);

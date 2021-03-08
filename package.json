@@ -3,45 +3,46 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.10.0",
-    "@testing-library/react": "^10.2.1",
-    "@testing-library/user-event": "^11.4.2",
-    "@types/jest": "^26.0.0",
-    "@types/node": "^14.0.13",
-    "@types/react": "^16.9.36",
-    "@types/react-dom": "^16.9.8",
-    "@types/react-lottie": "^1.2.5",
-    "@types/react-router-dom": "^5.1.5",
-    "@types/styled-components": "^5.1.0",
-    "husky": "^4.2.5",
-    "lint-staged": "^10.2.10",
-    "polished": "^3.6.5",
-    "prettier": "^2.0.5",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.8.1",
+    "@types/react-dom": "^17.0.1",
+    "husky": "^5.1.3",
+    "lint-staged": "^10.5.4",
+    "polished": "^4.1.1",
+    "prettier": "^2.2.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "react-lottie": "^1.2.3",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1",
-    "styled-components": "^5.1.1",
-    "typescript": "~3.9.5",
+    "react-scripts": "4.0.3",
+    "styled-components": "^5.2.1",
+    "typescript": "~4.2.3",
     "upstamps-react": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "ts": "npx tsc",
+    "commit": "git-cz",
+    "precommit": "yarn prettier:write && yarn ts && lint-staged",
+    "update:packages": "yarn upgrade-interactive --latest",
+    "lint": "eslint --fix --ext=jsx,ts,tsx src",
+    "prettier:write": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
   },
   "eslintConfig": {
     "extends": "react-app"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged && tsc"
     }
   },
   "lint-staged": {
-    "*.{js,json,css,md}": [
+    "*.{js,ts,tsx,json,css,md}": [
+      "eslint --fix --ext=jsx,ts,tsx src",
       "prettier --write",
       "git add"
     ]
@@ -57,5 +58,27 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.20",
+    "@types/node": "^14.14.32",
+    "@types/react": "^17.0.3",
+    "@types/react-lottie": "^1.2.5",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/styled-components": "^5.1.7",
+    "@typescript-eslint/eslint-plugin": "^4.16.1",
+    "@typescript-eslint/parser": "^4.16.1",
+    "commitizen": "^4.2.3",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^7.21.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "tslint": "^6.1.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
