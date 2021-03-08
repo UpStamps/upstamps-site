@@ -11,7 +11,7 @@ const TourPage = () => {
             to progressively deliver features to users with confidence.`}
         image={{
           url: "../imgs/gifs/global.gif",
-          alt: "Create Projects"
+          alt: "Create Projects",
         }}
         data={[
           {
@@ -22,8 +22,8 @@ const TourPage = () => {
             manage across web, mobile, and server-side applications.`,
             image: {
               url: "../imgs/gifs/projects.gif",
-              alt: "Create Projects"
-            }
+              alt: "Create Projects",
+            },
           },
           {
             id: 2,
@@ -33,8 +33,8 @@ const TourPage = () => {
             control their feature lifecycles.`,
             image: {
               url: "../imgs/gifs/envs.gif",
-              alt: "Organize by Environments"
-            }
+              alt: "Organize by Environments",
+            },
           },
           {
             id: 3,
@@ -45,8 +45,8 @@ const TourPage = () => {
             real-time behavior of features through response data.`,
             image: {
               url: "../imgs/gifs/flags.gif",
-              alt: "Easily Deploy with Feature & Remote Flags"
-            }
+              alt: "Easily Deploy with Feature & Remote Flags",
+            },
           },
           {
             id: 4,
@@ -57,8 +57,8 @@ const TourPage = () => {
             variant is more effective to launch.`,
             image: {
               url: "../imgs/gifs/tests.gif",
-              alt: "Run A/B Tests"
-            }
+              alt: "Run A/B Tests",
+            },
           },
           {
             id: 5,
@@ -68,9 +68,9 @@ const TourPage = () => {
             Targets based on Users Device or Location.`,
             image: {
               url: "../imgs/gifs/segments.gif",
-              alt: "Target Specific Segments"
-            }
-          }
+              alt: "Target Specific Segments",
+            },
+          },
         ]}
       />
       <CallToAction

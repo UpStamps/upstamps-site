@@ -23,8 +23,8 @@ const Index = () => {
               // @ts-ignore
               animationData: GrowAnimation.default,
               rendererSettings: {
-                preserveAspectRatio: "xMidYMid slice"
-              }
+                preserveAspectRatio: "xMidYMid slice",
+              },
             }}
             height={400}
           />

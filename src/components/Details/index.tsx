@@ -33,8 +33,8 @@ const Details = () => {
               // @ts-ignore
               animationData: DiscoveryAnimation.default,
               rendererSettings: {
-                preserveAspectRatio: "xMidYMid slice"
-              }
+                preserveAspectRatio: "xMidYMid slice",
+              },
             }}
             height={400}
           />
@@ -107,8 +107,8 @@ const Details = () => {
               // @ts-ignore
               animationData: BuildAnimation.default,
               rendererSettings: {
-                preserveAspectRatio: "xMidYMid slice"
-              }
+                preserveAspectRatio: "xMidYMid slice",
+              },
             }}
             height={400}
           />

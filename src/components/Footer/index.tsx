@@ -80,7 +80,7 @@ const Footer = () => {
                   style={{
                     border: "none",
                     background: "none",
-                    color: "#656e79"
+                    color: "#656e79",
                   }}
                   onClick={() => {
                     //@ts-ignore

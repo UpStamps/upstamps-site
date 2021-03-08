@@ -22,7 +22,7 @@ const PricingPage = () => {
               description: `No! You can use UpStamps right away without a credit card.
                     We offer a Sandbox mode to test the features and integrate
                     them into your project. When you're comfortable, upgrade to
-                    a paid plan.`
+                    a paid plan.`,
             },
             {
               id: 2,
@@ -30,15 +30,15 @@ const PricingPage = () => {
               description: `We use Paddle to process your payment. It's the same payment
                     provider used in products such as Framer, Tower, MacPaw and
                     TablePlus. All payments are made via credit card, we do not
-                    handle your credit card information directly.`
+                    handle your credit card information directly.`,
             },
             {
               id: 3,
               title: "How do I switch to a different plan?",
               description: `You can switch to a new plan at any time by going to the
                     Billing page in your account. Select the plan you’d like to
-                    switch to and immediately start using new features.`
-            }
+                    switch to and immediately start using new features.`,
+            },
           ]}
         />
       </Content>

@@ -33,8 +33,8 @@ const data = [
       "Unlimited Requests",
       "Rest API Access",
       "SDKs Access",
-      "Email Support"
-    ]
+      "Email Support",
+    ],
   },
   {
     id: 2,
@@ -52,8 +52,8 @@ const data = [
       "5 Environments",
       "5 Segments",
       "100 Users",
-      "Unlimited Requests"
-    ]
+      "Unlimited Requests",
+    ],
   },
   {
     id: 3,
@@ -71,9 +71,9 @@ const data = [
       "10 Environments",
       "100 Segments",
       "Unlimited Users",
-      "Unlimited Requests"
-    ]
-  }
+      "Unlimited Requests",
+    ],
+  },
 ];
 
 const Pricing = ({ title }: Props) => {
