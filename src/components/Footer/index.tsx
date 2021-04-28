@@ -58,11 +58,6 @@ const Footer = () => {
                   Documentation
                 </a>
               </li>
-              <li className="mb-1">
-                <a href={urls.status} target="_blank" rel="noopener noreferrer">
-                  System Status
-                </a>
-              </li>
             </ul>
           </div>
           <div className="col-4 col-md-2 mb-4">
